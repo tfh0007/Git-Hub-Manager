@@ -1,7 +1,8 @@
 To Use this script follow the two steps below.
 
 1. Clone this repository.
-2. Run file "Git-Hub-Manager" in terminal with one parameter or two (First parameter required).
+2. Move file "Git-Hub-Manager" to a non git directory (For me this is the Documents folder)
+3. Run file "Git-Hub-Manager" in terminal with one parameter or two (First parameter required).
 The first (required) parameter is (the git directory you wish to access located according to Documents folder)
 The second optional parameter is a custom message for commiting changes to upload to your Git Hub page.
 For example I have a git directory called Python-Programs.
