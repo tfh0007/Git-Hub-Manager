@@ -7,10 +7,12 @@ The first (required) parameter is (the git directory you wish to access located 
 The second optional parameter is a custom message for commiting changes to upload to your Git Hub page.
 For example I have a git directory called Python-Programs.
 To run this script on my example directory you would need to type
+
     $ ./Git-Hub-Manager Python-Programs
     
 To use the second optional parameter type you custom message afterwards (Do not use quotes)
 For example we can run this program on my Python-Programs directory as follows.
+
     $ ./Git-Hub-Manager Python-Programs My custom commit message.
 
 Additional Information
@@ -24,5 +26,6 @@ Additional Information
 ***  Important note ***
     You may need to give the "Git-Hub-Manager" file permissions as an executable. 
     You can do this by typing in terminal
+    
     $ chmod +x Git-Hub-Manager
     
