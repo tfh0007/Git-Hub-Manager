@@ -6,6 +6,7 @@ To Use this script follow the two steps below.
 The first (required) parameter is (the git directory you wish to access located according to Documents folder)
 The second optional parameter is a custom message for commiting changes to upload to your Git Hub page.
 For example I have a git directory called Python-Programs.
+
 To run this script on my example directory you would need to type
 
     $ ./Git-Hub-Manager Python-Programs
