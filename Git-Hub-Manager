@@ -1,0 +1,89 @@
+#!/usr/bin/env bash
+
+DIRECTORY=${1?Error: No file listed}
+COMMITCHANGES=${2:-"I-edited-my-repository"}
+COMMITCHANGES2=${2:-"I-edited-my-repository"}
+cd Documents/$DIRECTORY
+
+if [ -d .git ]; then
+  echo "Located git Repository $DIRECTORY"
+  PS3="Please choose an action to perform on you $DIRECTORY Repository: "
+options=("Add and Commit changes to your $DIRECTORY git Repository" "pull from your $DIRECTORY Repository" "Stash all changes you have made locally on you $DIRECTORY Repository" "Run git status of your $DIRECTORY Repository" "Quit git Repository Manager")
+
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Add and Commit changes to your $DIRECTORY git Repository")
+                #echo git add .
+		git add .
+		#echo git commit -m ""$COMMITCHANGES""
+		git commit -m ""$COMMITCHANGES""
+		#echo git push
+		git push
+            echo ""
+            echo ""
+            echo "1) Add and Commit changes to your $DIRECTORY git Repository" 
+            echo "2) pull from your $DIRECTORY Repository"
+            echo "3) Stash all changes you have made locally on you $DIRECTORY Repository"
+            echo "4) Run git status of your $DIRECTORY Repository"
+            echo "5) Quit git Repository Manager"
+            ;;
+        "pull from your $DIRECTORY Repository")
+            git pull
+            echo ""
+            echo ""
+            echo "1) Add and Commit changes to your $DIRECTORY git Repository" 
+            echo "2) pull from your $DIRECTORY Repository"
+            echo "3) Stash all changes you have made locally on you $DIRECTORY Repository"
+            echo "4) Run git status of your $DIRECTORY Repository"
+            echo "5) Quit git Repository Manager"
+            ;;
+        "Stash all changes you have made locally on you $DIRECTORY Repository")
+
+            git stash
+            echo ""
+            echo ""
+            echo "1) Add and Commit changes to your $DIRECTORY git Repository" 
+            echo "2) pull from your $DIRECTORY Repository"
+            echo "3) Stash all changes you have made locally on you $DIRECTORY Repository"
+            echo "4) Run git status of your $DIRECTORY Repository"
+            echo "5) Quit git Repository Manager"
+            ;;
+         "Run git status of your $DIRECTORY Repository")
+            git status
+            echo ""
+            echo ""
+            echo "1) Add and Commit changes to your $DIRECTORY git Repository" 
+            echo "2) pull from your $DIRECTORY Repository"
+            echo "3) Stash all changes you have made locally on you $DIRECTORY Repository"
+            echo "4) Run git status of your $DIRECTORY Repository"
+            echo "5) Quit git Repository Manager"           
+            ;;
+
+        "Quit git Repository Manager")
+            echo " "
+	    echo "Thank you for using the git Repository Manager"
+	    echo " "
+            echo "This script was created by Thomas Hansknecht"
+	    echo " "
+
+            break
+            ;;
+        *) echo "Invalid option. Please select any of the avaliable options $REPLY";;
+    esac
+done
+
+else
+  echo "fatal: Not a git Repository";
+fi;
+
+
+         
+
+
+
+
+
+ 
+
+
