@@ -11,10 +11,11 @@ To run this script on my example directory you would need to type
 
     $ ./Git-Hub-Manager Python-Programs
     
-To use the second optional parameter type you custom message afterwards (Do not use quotes)
+To use the second optional parameter type you custom message after a space (Do not use quotes and do not use spaces)
 For example we can run this program on my Python-Programs directory as follows.
 
-    $ ./Git-Hub-Manager Python-Programs My custom commit message.
+    $ ./Git-Hub-Manager Python-Programs My-custom-commit-message.
+In this example I used - instead of spaces.
 
 Additional Information
 
