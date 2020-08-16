@@ -1,4 +1,4 @@
-To Use this script follow the two steps below.
+To Use this script follow the three steps below.
 
 1. Clone this repository.
 2. Move file "Git-Hub-Manager" to your home directory (For me this is the home folder)
