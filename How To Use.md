@@ -15,7 +15,7 @@ To use the second optional parameter type you custom message after a space (Do n
 For example we can run this program on my Python-Programs directory as follows.
 
     $ ./Git-Hub-Manager Python-Programs My-custom-commit-message.
-In this example I used - instead of spaces.
+In this example I used - instead of spaces for my custom commit message.
 
 Additional Information
 
