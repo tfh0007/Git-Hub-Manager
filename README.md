@@ -7,6 +7,3 @@
 - Used scripting to alleviate repetitive tasks
 - Had to become familar with the terminal to understand iteraction with the shell based program
 - Learned more about how git functions and the various stages that git offers
-
-## Usage of The Product
-Refer to the How To Use document for more information about using this software.
