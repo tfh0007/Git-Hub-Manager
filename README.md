@@ -5,5 +5,5 @@
 ## What was Learned
 - Learned how to develop Bash Scripts
 - Used scripting to alleviate repetitive tasks
-- Had to become familar with the terminal to understand iteraction with the shell based program
+- Had to become familar with the terminal to understand iteraction with shell based programs
 - Learned more about how git functions and the various stages that git offers
