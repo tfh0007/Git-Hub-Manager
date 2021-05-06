@@ -1,4 +1,12 @@
-This script displays a variety of options for managing your git repositories and interacting with you Git Hub pages.
-This program is desinged to be easy to use and a way to save some time by not having to remember or type lots of git commands.
+# About This Project
+- This script displays a variety of options for managing your git repositories and interacting with you Git Hub pages.
+- The program is desinged to be easy to use and a way to save time by not having to remember or type lots of git commands.
 
-Refer to the How To Use document for more information about this software.
+## What was Learned
+- Learned how to develop Bash Scripts
+- Used scripting to alleviate repetitive tasks
+- Had to become familar with the terminal to understand iteraction with the shell based program
+- Learned more about how git functions and the various stages that git offers
+
+## Usage of The Product
+Refer to the How To Use document for more information about using this software.
