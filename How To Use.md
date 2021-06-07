@@ -1,4 +1,4 @@
-To Use this script follow the three steps below.
+To Use this script follow the two steps below.
 
 1. Clone this repository.
 3. Run file "Git-Hub-Manager" in terminal with one parameter or two (First parameter required).
